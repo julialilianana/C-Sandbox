@@ -25,6 +25,16 @@ int main()
     const double dblNum{ 12.3 };
     cout << dblNum << endl;
 
+    int array[] = { 0,1,2,3,4,5 };
+    cout << array[5] << endl;
+
+    //Iterating Over an Array
+    for (int i = 0; i < 6; i++)
+    {
+        int number = array[i];
+        cout << number << endl;
+    }
+
     
 
     
